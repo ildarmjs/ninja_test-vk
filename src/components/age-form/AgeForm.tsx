@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import { useAgeForm } from '../../hooks/useAgeForm'
-import Button from '../../ui/Button'
 
 const AgeForm: FC = () => {
 	const { age, errors, handleSubmit, loading, onSubmit, register } =
